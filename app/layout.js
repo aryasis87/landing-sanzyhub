@@ -1,25 +1,18 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Figtree, Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const figtree = Figtree({ variable: "--font-figtree", subsets: ["latin"], weight: ["600", "700", "800"] });
+const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 
 export const metadata = {
-  title: "Sanzy Store",
-  description: "marketplace modern untuk template website premium dan siap pakai. Temukan desain berkualitas tinggi yang cocok untuk bisnis, portofolio, toko online, dan banyak lagi—semua bisa langsung digunakan dan di-custom sesuai kebutuhan Anda.",
+  title: "SanzyHub — Template Website Premium Siap Pakai",
+  description: "SanzyHub: marketplace template website premium untuk bisnis, portofolio, dan toko online — siap pakai dan mudah dikustom.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html lang="id">
+      <body className={`${figtree.variable} ${inter.variable} antialiased`}>
         <main>{children}</main>
       </body>
     </html>
