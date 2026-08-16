@@ -1,29 +1,38 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ==========================================================================
+   sanzyhub — bahasa rupa DASBOR.
+   Bisnis daring dikelola dari satu papan angka. Rupanya meniru dasbor:
+   kartu bersudut halus, biru nila, dan angka besar yang berbaris rapi.
+   ========================================================================== */
+
+@theme {
+  --color-indigo-deep: #1b1f3b; /* nila pekat */
+  --color-indigo-deep-2: #2a3157;
+  --color-mist: #f5f7fb; /* bidang terang */
+  --color-mist-2: #e4e9f2;
+  --color-steel: #525b70; /* teks sekunder */
+  --color-signal-up: #2f5fe0; /* biru aksi */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@layer base {
+  body { font-family: var(--font-inter), system-ui, sans-serif; background-color: var(--color-mist); color: var(--color-steel); }
+  h1, h2, h3 { font-family: var(--font-figtree), system-ui, sans-serif; letter-spacing: -0.02em; }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.metric { font-variant-numeric: tabular-nums; letter-spacing: -0.02em; font-weight: 700; }
+.panel-label { font-size: 0.6875rem; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-inter), system-ui, sans-serif;
+:where(a, button, input, textarea, select, summary):focus-visible {
+  outline: 2px solid var(--color-signal-up);
+  outline-offset: 3px;
 }
-
-h1, h2, h3 { font-family: var(--font-figtree), system-ui, sans-serif; letter-spacing: -0.025em; }
-

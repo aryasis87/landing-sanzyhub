@@ -26,13 +26,13 @@ export default function LandingPage() {
     setStartIndex((prev) => (prev - itemsPerPage >= 0 ? prev - itemsPerPage : fiturLandingPage.length - itemsPerPage));
 
   return (
-    <main className="relative bg-white text-gray-900 py-14 max-w-7xl mx-auto px-4 sm:px-6">
+    <main className="relative bg-mist text-indigo-deep py-14 max-w-7xl mx-auto px-4 sm:px-6">
       {/* Section dengan Shapes */}
-      <section className="relative text-center py-16 px-4 sm:px-6 bg-white overflow-hidden">
+      <section className="relative text-center py-16 px-4 sm:px-6 bg-mist overflow-hidden">
         {/* Shapes Background - Optimized for performance */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none z-0" aria-hidden="true">
-          <div className="absolute top-32 left-[8%] w-72 h-72 bg-purple-700/30 blur-[80px] rounded-full"></div>
-          <div className="absolute top-100 right-[12%] w-80 h-80 bg-blue-700/20 blur-[70px] rounded-full"></div>
+          <div className="absolute top-32 left-[8%] w-72 h-72 bg-signal-up/30 blur-[80px] rounded-full"></div>
+          <div className="absolute top-100 right-[12%] w-80 h-80 bg-signal-up/20 blur-[70px] rounded-full"></div>
         </div>
 
         {/* Konten Utama */}
@@ -40,17 +40,17 @@ export default function LandingPage() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 relative z-10 max-w-6xl mx-auto"
+          className="text-3xl sm:text-4xl md:text-5xl font-bold text-indigo-deep relative z-10 max-w-6xl mx-auto"
         >
-          Tingkatkan <span className="text-indigo-500 italic">Bisnis Anda <br / ></span> dengan{" "}
-          <span className="text-indigo-500 italic">Website</span> Berkualitas
+          Tingkatkan <span className="text-signal-up italic">Bisnis Anda <br / ></span> dengan{" "}
+          <span className="text-signal-up italic">Website</span> Berkualitas
         </motion.h1>
-        <p className="mt-4 text-base sm:text-lg text-gray-600 max-w-xl lg:max-w-2xl mx-auto relative z-10">
+        <p className="mt-4 text-base sm:text-lg text-steel max-w-xl lg:max-w-2xl mx-auto relative z-10">
           Dapatkan web yang cepat, clean, dan dioptimalkan untuk meningkatkan penjualan bisnis Anda.
         </p>
         <motion.a
           href="#fitur"
-          className="mt-6 inline-block bg-indigo-600 text-white px-6 py-3 text-base sm:text-lg font-semibold rounded-md shadow-lg hover:bg-indigo-500 transition-colors relative z-10"
+          className="mt-6 inline-block bg-signal-up text-mist px-6 py-3 text-base sm:text-lg font-semibold rounded-md shadow-lg hover:bg-signal-up transition-colors relative z-10"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           aria-label="Mulai sekarang dengan landing page kami"
@@ -59,10 +59,10 @@ export default function LandingPage() {
         </motion.a>
 
         {/* Kenapa Harus Kami? */}
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-700 mt-20 mb-4 relative z-10">
+        <h2 className="text-2xl sm:text-3xl font-bold text-indigo-deep mt-20 mb-4 relative z-10">
           Kenapa Harus Menggunakan Landing Page Kami?
         </h2>
-        <p className="text-base sm:text-lg text-gray-600 relative z-10 max-w-2xl mx-auto">
+        <p className="text-base sm:text-lg text-steel relative z-10 max-w-2xl mx-auto">
           Dirancang untuk meningkatkan interaksi dan hasil maksimal.
         </p>
 
@@ -87,8 +87,8 @@ export default function LandingPage() {
                   quality={85}
                 />
               </div>
-              <h3 className="mt-4 mb-1 text-lg font-semibold text-gray-900">{item.title}</h3>
-              <p className="text-sm text-gray-600">{item.description}</p>
+              <h3 className="mt-4 mb-1 text-lg font-semibold text-indigo-deep">{item.title}</h3>
+              <p className="text-sm text-steel">{item.description}</p>
             </motion.div>
           ))}
         </div>
@@ -97,7 +97,7 @@ export default function LandingPage() {
         <div className="mt-6 flex justify-center gap-4">
           <motion.button
             onClick={prevSlide}
-            className="w-12 h-12 bg-blue-400/70 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-400 transition-colors"
+            className="w-12 h-12 bg-signal-up/70 text-signal-up rounded-full flex items-center justify-center shadow-lg hover:bg-signal-up transition-colors"
             whileTap={{ scale: 0.95 }}
             aria-label="Slide sebelumnya"
           >
@@ -105,7 +105,7 @@ export default function LandingPage() {
           </motion.button>
           <motion.button
             onClick={nextSlide}
-            className="w-12 h-12 bg-blue-400 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-500 transition-colors"
+            className="w-12 h-12 bg-signal-up text-mist rounded-full flex items-center justify-center shadow-lg hover:bg-signal-up transition-colors"
             whileTap={{ scale: 0.95 }}
             aria-label="Slide berikutnya"
           >

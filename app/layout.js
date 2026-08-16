@@ -1,4 +1,5 @@
 import { Figtree, Inter } from "next/font/google";
+import MotionProvider from "./components/MotionProvider";
 import "./globals.css";
 
 const figtree = Figtree({ variable: "--font-figtree", subsets: ["latin"], weight: ["600", "700", "800"] });
@@ -42,7 +43,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <body className={`${figtree.variable} ${inter.variable} antialiased`}>
-        <main>{children}</main>
+        <main><MotionProvider>{children}</MotionProvider></main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(__jsonld) }} />
         </body>
     </html>
