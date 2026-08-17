@@ -6,7 +6,7 @@ export default function Art2() {
   return (
     <main className="min-h-screen bg-mist">
       {/* Hero Contact Section */}
-      <section className="relative bg-gradient-to-br from-signal-up to-white py-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-gradient-to-br from-mist-2 to-mist py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

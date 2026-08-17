@@ -27,7 +27,7 @@ export default function IllustrationHero() {
   ];
 
   return (
-    <section className={`bg-gradient-to-b from-mist-2 to-white py-20 md:py-28 ${inter.variable} ${poppins.variable}`}>
+    <section className={`bg-gradient-to-b from-mist-2 to-mist py-20 md:py-28 ${inter.variable} ${poppins.variable}`}>
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 md:gap-16 items-center">
           <motion.div
