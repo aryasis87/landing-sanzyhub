@@ -5,10 +5,10 @@ import "./globals.css";
 const figtree = Figtree({ variable: "--font-figtree", subsets: ["latin"], weight: ["600", "700", "800"] });
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 
-const __jsonld = {"@context":"https://schema.org","@type":"Organization","name":"SanzyHub","description":"Marketplace template website premium","url":"https://sanzyhub.pintuweb.com"};
+const __jsonld = {"@context":"https://schema.org","@type":"Organization","name":"SanzyHub","description":"Marketplace template website premium","url":"https://landing-sanzyhub.vercel.app"};
 
 export const metadata = {
-  metadataBase: new URL("https://sanzyhub.pintuweb.com"),
+  metadataBase: new URL("https://landing-sanzyhub.vercel.app"),
   title: "SanzyHub — Template Website Premium Siap Pakai",
   description: "SanzyHub: marketplace template website premium untuk bisnis, portofolio, dan toko online — siap pakai dan mudah dikustomisasi.",
   applicationName: "SanzyHub",
@@ -16,11 +16,11 @@ export const metadata = {
   authors: [{ name: "SanzyHub" }],
   creator: "SanzyHub",
   publisher: "SanzyHub",
-  alternates: { canonical: "https://sanzyhub.pintuweb.com" },
+  alternates: { canonical: "https://landing-sanzyhub.vercel.app" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://sanzyhub.pintuweb.com",
+    url: "https://landing-sanzyhub.vercel.app",
     siteName: "SanzyHub",
     title: "SanzyHub — Template Website Premium Siap Pakai",
     description: "SanzyHub: marketplace template website premium untuk bisnis, portofolio, dan toko online — siap pakai dan mudah dikustomisasi.",
