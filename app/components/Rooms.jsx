@@ -8,7 +8,7 @@ const projects = [
   { 
     title: "Tasty Corner", 
     thumbnail: "/images/l1.jpg",
-    link: "https://leadgeneration1.vercel.app/",
+    link: "https://landing-tastycorner.vercel.app/",
     category: "Landing Page",
     description: "Nikmati setiap gigitan penuh rasa dan kenikmatan.",
     year: "2025"
@@ -16,7 +16,7 @@ const projects = [
   { 
     title: "Rasa Nusantara", 
     thumbnail: "/images/l2.jpg",
-    link: "https://lead-generation2.vercel.app/",
+    link: "https://landing-rasanusantara.vercel.app/",
     category: "Landing Page",
     description: "Menghadirkan kelezatan kuliner tradisional Indonesia dengan sentuhan modern.",
     year: "2025"
@@ -24,7 +24,7 @@ const projects = [
     { 
     title: "CitraRasa Digital", 
     thumbnail: "/images/l3.jpg",
-    link: "https://lead-generation3.vercel.app/",
+    link: "https://landing-citarasa.vercel.app/",
     category: "Landing Page",
     description: "Transformasikan bisnis kuliner Anda dengan solusi digital inovatif untuk meningkatkan daya tarik dan penjualan secara online.",
     year: "2025"
@@ -32,7 +32,7 @@ const projects = [
   { 
     title: "LuxeElectro", 
     thumbnail: "/images/s1.jpg",
-    link: "https://salespage1.vercel.app/",
+    link: "https://landing-luxeelectro.vercel.app/",
     category: "Landing Page",
     description: "Bawa kemewahan ke dalam kehidupan sehari-hari dengan pilihan elektronik terbaik.",
     year: "2025"
@@ -40,7 +40,7 @@ const projects = [
     { 
     title: "Modewear", 
     thumbnail: "/images/s2.jpg",
-    link: "https://sales-page2.vercel.app/",
+    link: "https://landing-modewear.vercel.app/",
     category: "Landing Page",
     description: "Desain futuristik dengan pattern celestial dan cutting avant-garde.",
     year: "2025"
@@ -48,7 +48,7 @@ const projects = [
   { 
     title: "Woodora", 
     thumbnail: "/images/s3.jpg",
-    link: "https://sales-page3.vercel.app/",
+    link: "https://landing-woodora.vercel.app/",
     category: "Landing Page",
     description: "Kursi elegan bergaya minimalis dengan material kayu jati solid. Nyaman, tahan lama, dan cocok untuk segala gaya interior.",
     year: "2025"
@@ -56,7 +56,7 @@ const projects = [
     { 
     title: "Zychrome", 
     thumbnail: "/images/w1.jpg",
-    link: "https://webinar1-five.vercel.app/",
+    link: "https://landing-zychrome.vercel.app/",
     category: "Landing Page",
     description: "Optimalkan kekuasaan skill kamu melalui webinar interaktif dan inspiratif dari para ahli terbaik.",
     year: "2025"
@@ -64,7 +64,7 @@ const projects = [
   { 
     title: "Lumicast", 
     thumbnail: "/images/w2.jpg",
-    link: "https://webinar2.vercel.app/",
+    link: "https://landing-lumicast.vercel.app/",
     category: "Landing Page",
     description: "Menerangi pikiran, memperluas wawasan—webinar eksklusif untuk masa depanmu.",
     year: "2025"
@@ -72,7 +72,7 @@ const projects = [
     { 
     title: "NextTalks", 
     thumbnail: "/images/w3.jpg",
-    link: "https://webinar3.vercel.app/",
+    link: "https://landing-nexttalks.vercel.app/",
     category: "Landing Page",
     description: "Temukan ide-ide besar dan pembicara inspiratif dalam satu platform webinar profesional.",
     year: "2025"
@@ -80,7 +80,7 @@ const projects = [
   { 
     title: "Elevinar", 
     thumbnail: "/images/w4.jpg",
-    link: "https://webinar4.vercel.app/",
+    link: "https://landing-elevinar.vercel.app/",
     category: "Landing Page",
     description: "Tingkatkan wawasanmu melalui webinar interaktif dan inspiratif dari para ahli terbaik.",
     year: "2025"
@@ -88,7 +88,7 @@ const projects = [
     { 
     title: "Skywings", 
     thumbnail: "/images/p1.jpg",
-    link: "https://landing-page1-five-eta.vercel.app/",
+    link: "https://landing-skywings.vercel.app/",
     category: "Landing Page",
     description: "Solusi penerbangan modern yang menghubungkan Anda dengan pengalaman terbang yang cepat, aman, dan nyaman.",
     year: "2025"
@@ -96,7 +96,7 @@ const projects = [
   { 
     title: "Bribu", 
     thumbnail: "/images/p2.jpg",
-    link: "https://productpage2.vercel.app/",
+    link: "https://landing-bribu.vercel.app/",
     category: "Landing Page",
     description: "Temukan desainer berbakat dan dapatkan desain profesional melalui kontes desain di Bribu.",
     year: "2025"
