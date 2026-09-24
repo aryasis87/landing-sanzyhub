@@ -100,38 +100,6 @@ const projects = [
     category: "Landing Page",
     description: "Temukan desainer berbakat dan dapatkan desain profesional melalui kontes desain di Bribu.",
     year: "2025"
-  },
-  { 
-    title: "Blog Edukasi", 
-    thumbnail: "/images/w10.webp",
-    link: "#",
-    category: "E-Commerce",
-    description: "Website blog dengan sistem manajemen konten dan tata letak yang optimal",
-    year: "2020"
-  },
-  { 
-    title: "Aplikasi Donasi", 
-    thumbnail: "/images/w11.webp",
-    link: "#",
-    category: "Portfolio",
-    description: "Platform penggalangan dana dengan integrasi pembayaran aman",
-    year: "2020"
-  },
-  { 
-    title: "Website Sekolah", 
-    thumbnail: "/images/w12.webp",
-    link: "#",
-    category: "Portfolio",
-    description: "Website informasi sekolah dengan fitur pendaftaran online dan portal siswa",
-    year: "2020"
-  },
-    { 
-    title: "Website Sekolah", 
-    thumbnail: "/images/w12.webp",
-    link: "#",
-    category: "Portfolio",
-    description: "Website informasi sekolah dengan fitur pendaftaran online dan portal siswa",
-    year: "2020"
   }
 ];
 
