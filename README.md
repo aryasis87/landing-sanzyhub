@@ -1,12 +1,12 @@
-# SanzyHub — Template Website Premium Siap Pakai
+# SanzyHub — Template Landing Page Next.js yang Lebih dari Satu Halaman
 
-SanzyHub: marketplace template website premium untuk bisnis, portofolio, dan toko online — siap pakai dan mudah dikustomisasi.
+Lima belas template landing page Next.js dengan halaman dalam, formulir dan kalkulator yang bisa dicoba, dan isi di satu berkas data. Semua demo live; lisensi sekali bayar per usaha.
 
 **Demo live:** https://landing-sanzyhub.vercel.app
 
 ![Tangkapan layar SanzyHub](public/og.jpg)
 
-> Template landing page untuk bisnis fiktif. Formulir di dalamnya hanya demo dan tidak mengirim data.
+> Toko template fiktif. Template yang dipajang adalah landing page sungguhan di koleksi ini; harga lisensi hanya contoh dan tidak ada transaksi.
 
 ## Konsep
 
@@ -14,14 +14,16 @@ Bahasa rupa **Dasbor**: bisnis daring dikelola dari satu papan angka, dengan kar
 
 ## Halaman
 
-`/`
+- `/` — dasbor ringkasan katalog (angka dihitung dari data), katalog 15 template dengan saringan kategori & urutan, cara kerja, lisensi, FAQ
+- `/template/[slug]` — tangkapan layar, daftar halaman, fitur yang bisa dicoba, font, tautan demo live
+- `/lisensi` — tabel perbandingan tiga lisensi, boleh/tidak boleh
 
 ## Teknologi
 
 - Next.js 15.5 (App Router) dan React 19
 - Tailwind CSS v4
 - JavaScript
-- Framer Motion, React Icons
+- Tangkapan layar template diambil dari demo live (1 Okt 2026)
 - Font: Figtree, Inter (next/font)
 - SEO: metadata per halaman, Open Graph, JSON-LD, sitemap.xml, dan robots.txt
 
